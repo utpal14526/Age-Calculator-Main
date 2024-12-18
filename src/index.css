@@ -34,12 +34,10 @@ code {
 }
 
 .inner-body {
-
   height: fit-content;
   display: flex;
   flex-direction: column;
   width: 65%;
-
 }
 
 .body-mid-container {
@@ -59,19 +57,15 @@ code {
   gap: 15px;
   width: 100%;
   max-width: 1000px;
-
   margin: 20px auto;
   padding: 20px;
   background-color: #f8f9fa;
-
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   text-align: center;
 }
-
-
 
 .input-label {
   font-size: 16px;
@@ -92,56 +86,37 @@ code {
 
 .date-input:focus {
   border-color: #007bff;
-
 }
 
 .btn {
   background-color: #003366;
-
   color: #ffffff;
-
   padding: 10px 20px;
-
   font-size: 16px;
-
   font-weight: 500;
-
   border: none;
-
   border-radius: 5px;
-
   cursor: pointer;
-
   transition: all 0.3s ease;
-
   margin-top: 15px;
-
   display: block;
-
 }
 
 .btn:hover {
   background-color: #00509E;
-
   transform: translateY(-2px);
-
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-
 }
 
 .btn:active {
   background-color: #002244;
-
   transform: translateY(0px);
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-
 }
 
 .footer {
   margin-top: 30px;
   background-color: #003366;
-  /* Deep Blue */
   color: white;
   text-align: center;
   padding: 15px 10px;
@@ -153,7 +128,6 @@ code {
 
 .footer a {
   color: #66b2ff;
-  /* Light Blue */
   text-decoration: none;
   font-weight: bold;
 }
@@ -165,4 +139,14 @@ code {
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .inner-body {
+    width: 100%;
+  }
+
+  .main-body {
+    padding: 10px;
+  }
 }
