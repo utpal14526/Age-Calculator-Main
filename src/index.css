@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #003366;
+  box-sizing: border-box;
+  padding-left: 80px;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.main-body {
+  margin-top: 27px;
+  padding-left: 80px;
+}
+
+.inner-body {
+
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+
+}
+
+.body-mid-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #4c87c3;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  font-weight: 500;
+}
+
+.body-date-calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+.input-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.date-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.date-input:focus {
+  border-color: #007bff;
+
+}
+
+.btn {
+  padding: 5px 5px;
+  color: darkgreen;
+  width: fit-content;
+
+}
