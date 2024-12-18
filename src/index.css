@@ -96,8 +96,73 @@ code {
 }
 
 .btn {
-  padding: 5px 5px;
-  color: darkgreen;
-  width: fit-content;
+  background-color: #003366;
 
+  color: #ffffff;
+
+  padding: 10px 20px;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  margin-top: 15px;
+
+  display: block;
+
+}
+
+.btn:hover {
+  background-color: #00509E;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn:active {
+  background-color: #002244;
+
+  transform: translateY(0px);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: #003366;
+  /* Deep Blue */
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #66b2ff;
+  /* Light Blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
