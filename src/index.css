@@ -133,7 +133,7 @@ code {
 /* General Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+
   margin: 0;
   padding: 0;
   /* display: flex;
@@ -321,6 +321,15 @@ select:focus {
   margin: 0 auto;
 }
 
+.inner-datepicker-container {
+  width: 100%;
+
+  height: fit-content;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
 
 .extra-content {
   margin-top: 60px;
