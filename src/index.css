@@ -38,6 +38,16 @@ code {
   padding-left: 120px;
   padding-top: 8px;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar a:hover {
+  text-decoration: none;
 }
 
 /* 
@@ -144,6 +154,7 @@ body {
 
 .main-body {
   width: 80%;
+  height: 130vh;
   margin-top: 25px;
 }
 
@@ -281,7 +292,8 @@ select:focus {
 }
 
 .footer {
-  margin-top: 30px;
+
+  bottom: 0;
   background-color: #003366;
   color: white;
   text-align: center;
@@ -323,13 +335,26 @@ select:focus {
 
 .inner-datepicker-container {
   width: 100%;
-
+  margin-top: 20px;
   height: fit-content;
   padding: 20px;
   background-color: #f8f9fa;
   border: 0.5px solid black;
   border-radius: 5px;
 }
+
+.calender-container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.about-container {
+  height: 100vh;
+  width: 100%;
+
+}
+
 
 .extra-content {
   margin-top: 60px;

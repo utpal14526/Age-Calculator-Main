@@ -1,15 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar'
-import Body from './Components/Body'
-import Footer from './Components/Footer'
+import Navbar from './Components/Navbar';
+import Body from './Components/Body';
+import About from './Components/About';
+import PrivacyPolicy from './Components/PrivacyPolicy';
+import Footer from './Components/Footer';
 
-function App() {
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+
+function Layout() {
   return (
     <>
       <Navbar />
-      <Body />
+      <Outlet />
       <Footer />
+    </>
+  );
+}
+
+function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        { path: '/', element: <Body /> },
+        { path: 'about', element: <About /> },
+        { path: 'privacy-policy', element: <PrivacyPolicy /> },
+
+      ],
+    },
+  ]);
+
+  return (
+    <>
+      <RouterProvider router={router} />
     </>
   );
 }
