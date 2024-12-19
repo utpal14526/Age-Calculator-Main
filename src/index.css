@@ -19,6 +19,18 @@ body {
   /* Text color */
 }
 
+
+
+
+.highlight {
+  background-color: #ffeb3b;
+  /* Highlight color */
+  border-radius: 50%;
+  /* Circular highlight */
+  color: black;
+  /* Text color */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -36,6 +48,7 @@ code {
   background-color: #003366;
   box-sizing: border-box;
   padding-left: 120px;
+  padding-left: 120px;
   padding-top: 8px;
   font-size: 20px;
   text-decoration: none;
@@ -50,6 +63,7 @@ code {
   text-decoration: none;
 }
 
+/* 
 /* 
 .main-body {
   margin-top: 27px;
@@ -309,6 +323,20 @@ select:focus {
   text-decoration: none;
   font-weight: bold;
 }
+
+.footer-span a {
+  color: white;
+  margin-left: 20px;
+
+}
+
+.footer-span {
+  margin-top: 20px;
+
+}
+
+
+
 
 .footer-span a {
   color: white;
