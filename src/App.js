@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Body from './Components/Body';
-import About from './Components/About';
-import PrivacyPolicy from './Components/PrivacyPolicy';
-import Footer from './Components/Footer';
+import Navbar from './Components/Navbar/Navbar';
+import Body from './Components/Body/Body';
+import About from './Components/About/About';
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
+import Footer from './Components/Footer/Footer';
 
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 
